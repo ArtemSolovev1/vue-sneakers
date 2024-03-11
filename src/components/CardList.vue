@@ -21,6 +21,7 @@ const onClickAdd = () => {
       :is-added="true"
       :is-favorite="true"
       :on-click-add="onClickAdd"
+      :isFavorite="item.isFavorite"
     />
   </div>
 </template>
